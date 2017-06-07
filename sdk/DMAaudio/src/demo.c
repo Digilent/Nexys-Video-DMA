@@ -259,14 +259,11 @@ int main(void)
 
     //main loop
 
+	xil_printf("----------------------------------------------------------\r\n");
+	xil_printf("Nexys Video DMA Audio Demo\r\n");
+	xil_printf("----------------------------------------------------------\r\n");
+
     while(1) {
-
-
-    	xil_printf("----------------------------------------------------------\r\n");
-		xil_printf("Nexys Video DMA Audio Demo\r\n");
-		xil_printf("----------------------------------------------------------\r\n");
-
-
 
     	// Checking the DMA S2MM event flag
     			if (Demo.fDmaS2MMEvent)
@@ -405,7 +402,7 @@ int main(void)
     				Demo.fUserIOEvent = 0;
     			}
 
-    	MB_Sleep(20);
+    	usleep(20000);
     }
 
 	xil_printf("\r\n--- Exiting main() --- \r\n");
