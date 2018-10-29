@@ -402,7 +402,7 @@ int main(void)
     				Demo.fUserIOEvent = 0;
     			}
 
-    	usleep(20000);
+    	usleep(1);
     }
 
 	xil_printf("\r\n--- Exiting main() --- \r\n");

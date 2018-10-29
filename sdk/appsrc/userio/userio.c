@@ -107,7 +107,7 @@ void fnUpdateLedsFromSwitches(XGpio *psGpio)
 		u32 dwChanges = 0;
 
 
-		dwChanges = dwBtn ^ dwPrevButtons;
+		dwChanges = dwBtn & ~dwPrevButtons;
 		if (dwChanges & BTNU_MASK) {
 			Demo.chBtn = 'u';
 			if(Demo.u8Verbose) {
