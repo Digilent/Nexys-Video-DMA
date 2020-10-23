@@ -4,7 +4,7 @@ Nexys Video DMA Demo
 Description
 -----------
 
-This project demonstrates how to use the Nexys Video's Audio Codec and RAM to record samples of audio and play them back. Vivado is used to build the demo's hardware platform, and Vivado is used to program the bitstream onto the board and to build and deploy a C application.
+This project demonstrates how to use the Nexys Video's Audio Codec and RAM to record samples of audio and play them back. Vivado is used to build the demo's hardware platform, and Vitis is used to program the bitstream onto the board and to build and deploy a C application.
 
 To use this demo, the Nexys Video must be connected to a computer over MicroUSB, which must be running a serial terminal such as Tera Term or PuTTY.
 
