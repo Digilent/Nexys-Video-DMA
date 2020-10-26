@@ -261,6 +261,11 @@ int main(void)
 
 	xil_printf("----------------------------------------------------------\r\n");
 	xil_printf("Nexys Video DMA Audio Demo\r\n");
+	xil_printf("  Controls:\r\n");
+	xil_printf("  BTNL: Play on line out\r\n"
+			   "  BTNU: Record from mic in\r\n"
+			   "  BTND: Play on hph out\r\n"
+			   "  BTNR: Record from line in\r\n");
 	xil_printf("----------------------------------------------------------\r\n");
 
     while(1) {
