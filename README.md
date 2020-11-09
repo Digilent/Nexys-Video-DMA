@@ -21,7 +21,7 @@ The audio demo records a 5 second sample from microphone(J7) or line in (J8) and
 Requirements
 ------------
 * **Nexys Video**
-* **Vivado and Vitis 2020.1 Installations
+* **Vivado and Vitis 2020.1 Installations**
 * **Serial Terminal Emulator**
 * **MicroUSB Cable**
 * **Audio Source and Sink, such as Audio Cables, a Microphone, and/or a Speaker**
