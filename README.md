@@ -1,8 +1,6 @@
 Nexys Video DMA Demo
 ====================
 
-This demo currently contains no release as it is currently not functional in hardware.
-
 Description
 -----------
 
