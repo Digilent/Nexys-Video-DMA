@@ -10,7 +10,7 @@ This project demonstrates how to use the Nexys Video's Audio Codec and RAM to re
 
 To use this demo, the Nexys Video must be connected to a computer over MicroUSB, which must be running a serial terminal. For more information on how to set up and use a serial terminal, such as Tera Term or PuTTY, refer to [this tutorial](https://reference.digilentinc.com/learn/programmable-logic/tutorials/tera-term).
 
-The audio demo records a 5 second sample from microphone(J7) or line in (J8) and plays it back on headphone out(J5) or line out (J6). Recording and playback are controlled by the user push buttons, as in the table below.
+The audio demo records a 5 second sample from microphone (J6) or line in (J7) and plays it back on headphone out(J4) or line out (J5). Recording and playback are controlled by the user push buttons, as in the table below.
 
 |  Button  | Function             |
 | -------- | -------------------- |
